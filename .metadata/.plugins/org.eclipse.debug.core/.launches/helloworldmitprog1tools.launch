@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/hello world mit Prog1Tool 2/src/helloworldmitprog1tools.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="helloworldmitprog1tools"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hello world mit Prog1Tool 2"/>
+</launchConfiguration>

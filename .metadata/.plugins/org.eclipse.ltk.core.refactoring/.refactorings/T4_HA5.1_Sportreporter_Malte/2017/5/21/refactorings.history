@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;de.tuberlin.snet.prog2.ue05.buergeramt&apos; to &apos;T4_HA5.2_Buergeramt_Malte/src&apos;&#x0D;&#x0A;- Original project: &apos;T4_HA5.1_Sportreporter_Malte&apos;&#x0D;&#x0A;- Destination element: &apos;T4_HA5.2_Buergeramt_Malte/src&apos;&#x0D;&#x0A;- Original element: &apos;T4_HA5.1_Sportreporter_Malte/src/de.tuberlin.snet.prog2.ue05.buergeramt&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=T4_HA5.2_Buergeramt_Malte/src" element1="/src&lt;de.tuberlin.snet.prog2.ue05.buergeramt" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1495471262229" version="1.0"/>
+</session>

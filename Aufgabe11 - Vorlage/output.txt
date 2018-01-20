@@ -1,0 +1,144 @@
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:3
+Number of stocks in this fond?:2
+selecting stock number #0
+Stock{id=0, name='Amazon', currentPrice=776.3}
+Stock{id=1, name='Bank of America Corp', currentPrice=16.68}
+Stock{id=2, name='Apple Inc', currentPrice=113.72}
+Stock{id=3, name='Alphabet Inc', currentPrice=819.56}
+Stock{id=4, name='IBM', currentPrice=152.61}
+Stock{id=5, name='Infineon Technologies AG', currentPrice=16.26}
+Stock{id=6, name='Facebook, Inc', currentPrice=131.29}
+Select Stock:0
+selecting stock number #1
+Stock{id=0, name='Amazon', currentPrice=776.3}
+Stock{id=1, name='Bank of America Corp', currentPrice=16.68}
+Stock{id=2, name='Apple Inc', currentPrice=113.72}
+Stock{id=3, name='Alphabet Inc', currentPrice=819.56}
+Stock{id=4, name='IBM', currentPrice=152.61}
+Stock{id=5, name='Infineon Technologies AG', currentPrice=16.26}
+Stock{id=6, name='Facebook, Inc', currentPrice=131.29}
+Select Stock:7
+Stock{id=0, name='Amazon', currentPrice=776.3}
+Stock{id=1, name='Bank of America Corp', currentPrice=16.68}
+Stock{id=2, name='Apple Inc', currentPrice=113.72}
+Stock{id=3, name='Alphabet Inc', currentPrice=819.56}
+Stock{id=4, name='IBM', currentPrice=152.61}
+Stock{id=5, name='Infineon Technologies AG', currentPrice=16.26}
+Stock{id=6, name='Facebook, Inc', currentPrice=131.29}
+Select Stock:2
+How much is this fond worth?950
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:4
+Portfolio Report: Wed Nov 23 16:27:15 CET 2016
+FondInvestment [id=0, currentValue()=890.02, absolutPriceDelta()=-59.98000000000002]
+Total Value:890.02
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:6
+Stock{id=0, name='Amazon', currentPrice=776.3}
+Stock{id=1, name='Bank of America Corp', currentPrice=16.68}
+Stock{id=2, name='Apple Inc', currentPrice=113.72}
+Stock{id=3, name='Alphabet Inc', currentPrice=819.56}
+Stock{id=4, name='IBM', currentPrice=152.61}
+Stock{id=5, name='Infineon Technologies AG', currentPrice=16.26}
+Stock{id=6, name='Facebook, Inc', currentPrice=131.29}
+Select Stock:0
+New Value?:800
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:4
+Portfolio Report: Wed Nov 23 16:27:26 CET 2016
+FondInvestment [id=0, currentValue()=913.72, absolutPriceDelta()=-36.27999999999997]
+Total Value:913.72
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:1
+Name:
+TUB
+currentPrice:
+0.66
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:2
+Stock{id=0, name='Amazon', currentPrice=800.0}
+Stock{id=1, name='Bank of America Corp', currentPrice=16.68}
+Stock{id=2, name='Apple Inc', currentPrice=113.72}
+Stock{id=3, name='Alphabet Inc', currentPrice=819.56}
+Stock{id=4, name='IBM', currentPrice=152.61}
+Stock{id=5, name='Infineon Technologies AG', currentPrice=16.26}
+Stock{id=6, name='Facebook, Inc', currentPrice=131.29}
+Stock{id=7, name='TUB', currentPrice=0.66}
+Enter Stock Number:0
+How much do you want to buy:4
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:2
+Stock{id=0, name='Amazon', currentPrice=800.0}
+Stock{id=1, name='Bank of America Corp', currentPrice=16.68}
+Stock{id=2, name='Apple Inc', currentPrice=113.72}
+Stock{id=3, name='Alphabet Inc', currentPrice=819.56}
+Stock{id=4, name='IBM', currentPrice=152.61}
+Stock{id=5, name='Infineon Technologies AG', currentPrice=16.26}
+Stock{id=6, name='Facebook, Inc', currentPrice=131.29}
+Stock{id=7, name='TUB', currentPrice=0.66}
+Enter Stock Number:7
+How much do you want to buy:1200
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:4
+Portfolio Report: Wed Nov 23 16:28:07 CET 2016
+FondInvestment [id=0, currentValue()=913.72, absolutPriceDelta()=-36.27999999999997]
+StockInvestment [id=1, getAmount()=4, currentValue()=3200.0, absolutPriceDelta()=0.0]
+StockInvestment [id=2, getAmount()=1200, currentValue()=792.0, absolutPriceDelta()=0.0]
+Total Value:4905.72
+1 - Add Stock
+2 - Buy Stock
+3 - Buy Fond
+4 - show portfolio
+5 - show Stocks
+6 - update Stock
+0 - exit
+Enter Command Number:0

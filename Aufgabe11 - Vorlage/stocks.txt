@@ -1,0 +1,7 @@
+ST;Amazon;776.30
+ST;Bank of America Corp;16.68
+ST;Apple Inc;113.72
+ST;Alphabet Inc;819.56
+ST;IBM;152.61
+ST;Infineon Technologies AG;16.26
+ST;Facebook, Inc;131.29

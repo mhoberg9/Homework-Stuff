@@ -1,0 +1,80 @@
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:1
+Name:
+IBM
+currentPrice:
+215
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:1
+Name:
+Apple
+currentPrice:
+120.232323
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:4
+Stock{id=12648430, name='IBM', currentPrice=215.0}
+Stock{id=12648431, name='Apple', currentPrice=120.232323}
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:2
+Stock{id=12648430, name='IBM', currentPrice=215.0}
+Stock{id=12648431, name='Apple', currentPrice=120.232323}
+Enter Stock Number:12648430
+How much do you want to buy:100
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:3
+Portfolio Report: Tue Nov 01 13:08:54 CET 2016
+Investment{name:	IBM, currentValue:	21500.0, absolutPriceDelta:	0.0}
+Total Value:21500.00
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:5
+Stock{id=12648430, name='IBM', currentPrice=215.0}
+Stock{id=12648431, name='Apple', currentPrice=120.232323}
+Select Stock:12648430
+New Value?:400
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:3
+Portfolio Report: Tue Nov 01 13:09:21 CET 2016
+Investment{name:	IBM, currentValue:	40000.0, absolutPriceDelta:	18500.0}
+Total Value:40000.00
+1 - Add Stock
+2 - Buy Stock
+3 - show portfolio
+4 - show Stocks
+5 - update Stock
+0 - exit
+Enter Command Number:0

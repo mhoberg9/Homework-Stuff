@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;blatt_03&apos; to &apos;T4_HA3.4_BerlinsEinwohner&apos;" description="Rename resource &apos;blatt_03&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/blatt_03" name="T4_HA3.4_BerlinsEinwohner" stamp="1494080978465" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;T4_HA3.4_BerlinsEinwohner&apos; to &apos;T4_HA3_Deadlock&apos;" description="Rename resource &apos;T4_HA3.4_BerlinsEinwohner&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/T4_HA3.4_BerlinsEinwohner" name="T4_HA3_Deadlock" stamp="1494173120500" updateReferences="true"/>
+</session>

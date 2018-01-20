@@ -1,0 +1,9 @@
+package de.tu.prog02.klassenhierachien
+
+class Duck(override val name:String) extends Bird(name) with Flying with Swimming{
+  override def makeNoise()=super.makeNoise()+s" superDuck: $name";
+//  def swimm()="Performing swimming";
+//def fly()= "Performing flying";
+   override val swimmMessage="Quaking while f";
+   override val flyMessage="Quak";
+}

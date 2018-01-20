@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;de.tub.ise.chat.client.FixedRate&apos; to &apos;HeartBeat&apos;&#x0D;&#x0A;- Original project: &apos;Aufgabe 19 - Vorlage&apos;&#x0D;&#x0A;- Original element: &apos;de.tub.ise.chat.client.FixedRate&apos;&#x0D;&#x0A;- Renamed element: &apos;de.tub.ise.chat.client.HeartBeat&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FixedRate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;de.tub.ise.chat.client{FixedRate.java[FixedRate" matchStrategy="1" name="HeartBeat" qualified="false" references="true" similarDeclarations="false" stamp="1486651373985" textual="false" version="1.0"/>
+</session>

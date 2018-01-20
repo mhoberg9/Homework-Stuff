@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Vorlage_HA7&apos; to &apos;T4_Prog2HA07_Malte&apos;" description="Rename resource &apos;Vorlage_HA7&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Vorlage_HA7" name="T4_Prog2HA07_Malte" stamp="1496498036512" updateReferences="true"/>
+</session>

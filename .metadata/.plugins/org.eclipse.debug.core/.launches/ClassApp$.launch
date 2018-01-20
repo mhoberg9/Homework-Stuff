@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="scala.application">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/T4_ProgHA10_Malte2/src/de/tu/prog02/klassenhierachien/ClassApp.scala"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="de.tu.prog02.klassenhierachien.ClassApp"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="T4_ProgHA10_Malte2"/>
+</launchConfiguration>

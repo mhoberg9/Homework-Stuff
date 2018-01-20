@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Malte\Downloads\GameServerVorgabe.zip"/>
+			<item value="C:\Users\Malte\Downloads\T4_Prog2HA10_Malte.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_HA9 (1).zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_HA7.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_Blatt6.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_HA05.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_Tut4.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_HA03.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_HA2.zip"/>
+			<item value="C:\Users\Malte\Downloads\Vorlage_HA1.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\03 - Algorithmen  Datenstrukturen.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\04 - Advanced Concepts.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe 19 - Vorlage.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\aufgabe 18.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe 18 - Vorlage.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe 18 - ThreadAudification.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe 17 - Vorlage.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe16 - Vorlage.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe15 - Vorlage.zip"/>
+			<item value="C:\Users\maltehoberg\Downloads\Aufgabe14 - Vorlage.zip"/>
+		</list>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1445170827779" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="671" key="DIALOG_X_ORIGIN"/>
+			<item value="188" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="642" key="DIALOG_HEIGHT"/>
+		<item value="260" key="DIALOG_X_ORIGIN"/>
+		<item value="97" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

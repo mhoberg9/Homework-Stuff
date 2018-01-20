@@ -1,0 +1,6 @@
+package de.tu.prog02.klassenhierachien
+
+class Frigatebird(override val name:String) extends Bird(name) with Flying{
+   def fly()="Performing flying";
+  override val flyMessage= s"Frigatebird sound $name"; 
+}

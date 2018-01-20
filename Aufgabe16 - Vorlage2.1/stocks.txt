@@ -1,0 +1,22 @@
+ST;1;Apple Inc;113.72
+ST;2;Alphabet Inc;819.56
+ST;3;Amazon;776.366
+ST;4;Bank of America Corp;16.68
+ST;5;IBM;152.61
+ST;6;Infineon Technologies AG;16.26
+ST;7;Facebook, Inc;131.29
+PI;2500000;0.021;1388534400;Marchstraße 23
+PI;1300000;0.005;946684800;Einsteinufer 17
+PI;350;0.1;-1167609600;Parkstraße;
+PI;400;0.1;-1167609600;Schlossallee;
+PI;60;0.02;-11676096066;Badstraße;
+SI;1,10
+SI;2;10
+SI;3;10
+SI;4;10
+SI;5;10
+SI;6;10
+SI;7;10
+SI;4;20
+FI;4;10;1;15;3;20;
+FI;2;20;5;15;9;125;

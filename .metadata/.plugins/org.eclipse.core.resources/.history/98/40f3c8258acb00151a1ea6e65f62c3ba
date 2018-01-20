@@ -1,0 +1,219 @@
+package de.tuberlin.ise.prog1.client;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.DataInputStream;
+import java.io.DataOutput;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.Scanner;
+
+import Prog1Tools.IOTools;
+import de.tuberlin.ise.prog1.authentication.Authenticator;
+
+/**
+ * 
+ * @author jacobeberhardt
+ *
+ */
+public class Client {
+
+	public static final String FIRST_NAME = "Malte";
+	public static final String LAST_NAME = "Hoberg";
+	public static final String outputpath = "C:/Users/maltehoberg/Desktop/server19/uploadhallo.txt";
+	public static final String inputpath = "C:/Users/maltehoberg/Desktop/server19/";
+
+	public static void main(String[] args) throws UnknownHostException, IOException {
+
+		// generate hash
+		byte[] hash = Authenticator.getHash(FIRST_NAME, LAST_NAME);
+
+		System.out.println("Hello Client!");
+
+		// connect to server & get streams
+		Socket s = new Socket("52.29.112.167", 8080);
+		// Socket s = new Socket("52.28.100.108", 8080);
+		DataOutputStream output = new DataOutputStream(s.getOutputStream());
+		DataInputStream input = new DataInputStream(s.getInputStream());
+		DataInputStream check = new DataInputStream(s.getInputStream());
+
+		// check if connected
+		if (s.isConnected()) {
+			System.out.println("You are connected to 52.29.112.167 :8080");
+		}
+
+		int command = IOTools.readInt("What do you want to do? " + "Press 1-upload, 2-download, 3-list all items");
+		switch (command) {
+		case 1:
+
+			// get id
+			long id;
+			id = IOTools.readLong("Please enter the ID for your file: ");
+
+			/**
+			 * IN
+			 */
+
+			File upload = new File(outputpath);
+			BufferedInputStream input1 = new BufferedInputStream(new FileInputStream(upload));
+
+			// hash authentication
+			s.getOutputStream().write(hash);
+
+			// op-code
+			output.writeByte(0);
+
+			// ID
+			output.writeLong(id);
+
+			// filesize
+			output.writeLong(upload.length());
+			byte[] uploadarray = new byte[(int) upload.length()];
+
+			// file
+			input1.read(uploadarray);
+			output.write(uploadarray, 0, uploadarray.length);
+			;
+
+			/**
+			 * OUT
+			 */
+
+			// satuscode
+			try {
+				filecheck(check.readByte());
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			output.close();
+			input.close();
+			check.close();
+			s.close();
+
+			return;
+		case 2:
+
+			long id1;
+			id1 = IOTools.readLong("Please enter the ID for your file: ");
+
+			/**
+			 * IN
+			 */
+
+			// hash authentication
+			output.write(hash);
+
+			// op-code
+			output.writeByte(1);
+
+			// ID
+
+			output.writeLong(id1);
+
+			/**
+			 * OUT
+			 */
+
+			// filesize
+			File download = new File(inputpath);
+			long downloadsize = input.readLong();
+			byte[] downloadarray = new byte[(int) downloadsize];
+
+			// file
+			for (int c = 0; c <= (int) downloadsize; c++) {
+				downloadarray[c] = input.readByte();
+				FileOutputStream outtodata = new FileOutputStream(inputpath);
+				outtodata.write(downloadarray);
+			}
+
+			// statuscode
+			try {
+				filecheck(check.readByte());
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			output.close();
+			input.close();
+			check.close();
+			s.close();
+
+			return;
+
+		case 3:
+			// list all items
+			/**
+			 * IN
+			 */
+
+			// hash
+			output.write(hash);
+
+			// op-code
+			output.writeByte(2);
+
+			/**
+			 * OUT
+			 */
+
+			// listsize
+
+			long listsize = input.readLong();
+
+			// list
+
+			for (long k = 0; k <= listsize; k++) {
+				System.out.println(input.readLong());
+			}
+
+			// statuscode
+
+			try {
+				filecheck(check.readByte());
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+
+			}
+
+			output.close();
+			input.close();
+			check.close();
+			s.close();
+
+			return;
+		}
+	}
+
+	private static void filecheck(byte readByte) throws Exception {
+		switch (readByte) {
+		case 0:
+			System.out.println("Success");
+			return;
+		case 1:
+			System.out.println("Error");
+			return;
+		case 2:
+			System.out.println("Unknown	Command");
+			return;
+		case 3:
+			System.out.println("Hash Invalid");
+			return;
+		}
+
+	}
+
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="11" key="DIALOG_X_ORIGIN"/>
+		<item value="-290" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="749" key="dialogHeight"/>
+		<item value="1440" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="PreferencesImportWizard">
+		<item value="C:\Users\maltehoberg\Downloads\RainbowDrops.epf" key=""/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\maltehoberg\Downloads\RainbowDrops.epf"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="FileSystemExportWizard">
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
+		<item value="false" key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Malte\Documents"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Malte\Downloads\src.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\Prog2\T4_Prog2HA02.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\Prog2\T4_Prog2HA01.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\Prog2.zip"/>
+			<item value="C:\Users\Malte\Downloads\Aufgabe-13-Skiplist.zip"/>
+			<item value="C:\Users\Malte\Desktop\Aufgabe 11 - Onlineshopp.zip"/>
+			<item value="C:\Users\Malte\Downloads\A9_Vorlage.zip"/>
+			<item value="C:\Users\Malte\Downloads\Lösungen.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Malte\OneDrive\Dokumente\Prog2"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Malte\OneDrive\Dokumente\Prog2\T4_Prog2HA09_Malte.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\Prog2\T4_Prog2HA07_Malte.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\T4_Prog2HA06_Malte.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\T4_Prog2HA05_Malte.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\T4_Prog2HA04.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\T4_Prog2HA03.zip"/>
+			<item value="C:\Users\Malte\OneDrive\Dokumente\T4_Prog2HA02.zip"/>
+			<item value="C:\Users\Malte\Downloads\T4_Prog2HA01.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe 19 - chatClient..zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe 18 - MidiThreads.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe 17 - Exceptions.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe15 - Tree.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe14 - TreeData  .zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe13.2 - Zahlenraten .zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe13.1 - Sortieren .zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe12 Zahlenraten.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe12.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe11.2.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe10 - OOP 2.zip"/>
+			<item value="C:\Users\maltehoberg\OneDrive\Dokumente\Aufgabe09 - OOP 0.zip"/>
+		</list>
+	</section>
+</section>

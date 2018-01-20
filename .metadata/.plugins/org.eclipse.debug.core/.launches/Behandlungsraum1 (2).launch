@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/T4_HA2.1.1_BehandlungsraumundPatient/src/Behandlungsraum1.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Behandlungsraum1"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="T4_HA2.1.1_BehandlungsraumundPatient"/>
+</launchConfiguration>
